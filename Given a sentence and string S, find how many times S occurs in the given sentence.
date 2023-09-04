@@ -1,0 +1,8 @@
+n=list(map(str,(input().split())))        #getting multiple inputs
+a=input()
+for i in n:                               #using for loop here
+  if a in i:                              #checking a is present or not
+    print("1")
+    break
+else:
+  print("-1")
